@@ -5,8 +5,8 @@
   padding: 0;
   margin: 0;
   font-family: 'Krub', sans-serif;
-  box-sizing: border-box;
   text-decoration: none;
+ 
 }
 
 /* behavior kemon hobe  */
@@ -179,6 +179,7 @@ section .title::after{
     height: 108vh;
     color: #fff;
     min-height: 500px;
+    box-sizing: border-box;
 
     
    
@@ -201,7 +202,8 @@ section .title::after{
     
     position: relative;
     top: 10rem;
-    left: 52rem;
+    left: 55rem;
+    box-sizing: border-box;
     
 }
 .home .home-content .text-2{
@@ -229,6 +231,7 @@ section .title::after{
     font-weight: bold;
     border: 2px solid rgb(0, 0, 0);
     transition: all 0.3s ease;
+    box-sizing: border-box;
 
     
 
@@ -363,7 +366,7 @@ section .title::after{
     /* content: "what i provide"; */
 }
 .services .serv-content .card{
-    width: calc(33% - 20px);
+    width: 20rem;
     background: #000000;
     text-align: center;
     border-radius: 6px;
@@ -374,7 +377,7 @@ section .title::after{
 }
 .services .serv-content .card:hover{
     background: rgb(0, 0, 0);
-    color:rgb(0, 0, 39);
+    color:rgb(255, 255, 255);
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -388,7 +391,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: #001356;
+    color: #d0ba2b;
 }
 .services .serv-content .card .text{
     font-size: 25px;
@@ -398,15 +401,29 @@ section .title::after{
 .card {
     border: 4px solid#E7CD8D;
 }
+.card {
+    width: 100px;
+   
+   border:4px solid  #d0ba2b;
+ 
+   display: flex;
+}
+.max-width h2{
+    font-size: 150px;
+    font-weight: bold;
+    
 
-
-
+}
+.max-width span{
+    color: rgb(204, 166, 30);
+  
+}
 
 
 /* skills section styling */
 .skills{
     background:black;
-    color: rgb(249, 38, 38);
+    color: rgb(255, 255, 255);
 }
 /* .skills .title::after{
     content: "what i know";
